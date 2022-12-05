@@ -1,10 +1,10 @@
-import React    from "react";
-import template from "./home.jsx";
-
-class home extends React.Component {
-  render() {
-    return template.call(this);
-  }
+const Home = () => {
+  return ( 
+    <div clasName='Home'>
+      <h2>Homepage</h2>
+      
+    </div>
+   );
 }
-
-export default home;
+ 
+export default Home;
